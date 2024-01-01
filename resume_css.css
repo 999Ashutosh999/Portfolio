@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-color: #E6DACE;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+.right .head4{
+    margin-top: 54px;
+    margin-left: -10px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.right p{
+    margin: 20px;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+.right p,.point:hover{
+    cursor: pointer;
+}
+.point{
+    height: 20px;
+    width: 19px;
+    background-color: blue;
+    margin-top: 30px;
+}
+
+.left ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+.left ul {
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 60px;
+}
+
+.left ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.navbar .left{
+
+    width: 50%;
+}
+
+.navbar{
+    height: 120px;
+    width: 100%;
+    margin: -250px 0px;
+    background: #ffffff;
+    z-index: 1;
+    display: flex;
+    position: fixed;
+}
+.left ul li .hover:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.left ul li .hover{
+    color: black;
+}
+
+/* herobody */
+.herobody .point_heading{
+    height: 50px;
+    width: 100%;
+    /* position: absolute; */
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herobody .point_heading p{
+    font-size: 35px;
+    font-weight: 800;
+    margin: 7px;
+}
+
+.herobody .point_heading .resume_point{
+    height: 20px;
+    width: 19px;
+    background-color: blue;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.middle-part{
+    display: flex;
+    justify-content: space-around;
+    margin: 65px 180px;
+    align-items: center;
+    font-size: larger;
+}
+
+.buttons .button{
+    display: flex;
+    border-radius: 55px;
+    width: 160px;
+    height: 45px;
+    border: 1px solid black;
+    transition: 0.3s;
+    font-size: 15px;
+    color: white;
+    background-color: blue;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+.buttons .button:hover{
+    color: rgb(10, 10, 10);
+    background-color: #E6DACE;
+    cursor: pointer;
+}
+
+
+.container{
+    height: 25rem;
+    width: 50rem;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    box-shadow: #c3b1b1 0px 0px 20px 0px;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* align-items: flex-end; */
+    margin-top: 80px;
+}
+
+.right_container{
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.right_container .date{
+    color: blue;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.container .edu{
+    font-size: 20px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.info{
+font-size: 18px;
+}
+.left_container{
+    width: 25rem;
+    margin-right: 20px;
+    margin-top: 80px;
+    font-size: large;
+}
+
+
+.container h2{
+    width: 100%;
+    margin-top: 50px;
+    height: fit-content;
+    margin-left: 30px;
+}
+
+.container .skills{
+    width: 100%;
+    height: 25%;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container .skills .point{
+    margin-top: 0px;
+    height: 15px;
+    width: 15px;
+}
+
+.container .skills p{
+    margin-left: inherit;
+    margin-top: -21px;
+    width: fit-content;
+}
+
+/* .herobody :end */
+
+/* footer  */
+footer{
+    height: 100px;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    /* margin: 183px 0px; */
+    display: flex;
+    padding-top: 20px;
+}
+
+footer .copyright-container{
+    width: 50%;
+    background-color: white;
+}
+
+footer .copyright-container p{
+    margin-left: 20px;
+}
+
+footer .contact{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: end;
+
+}
+
+footer .contact p{
+    margin: 25px;
+}

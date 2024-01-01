@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-color: #E6DACE;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+.right .head4{
+    margin-top: 54px;
+    margin-left: -10px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.right p{
+    margin: 20px;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+.right p,.point:hover{
+    cursor: pointer;
+}
+.point{
+    height: 20px;
+    width: 19px;
+    background-color: blue;
+    margin-top: 30px;
+}
+
+.left ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+.left ul {
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 60px;
+}
+
+.left ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.navbar .left{
+
+    width: 50%;
+}
+
+.navbar{
+    height: 120px;
+    position: fixed;
+    margin-top: -25rem;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1;
+    display: flex;
+}
+
+
+.herobody .point_heading{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    margin-top: -8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herobody .point_heading p{
+    font-size: 35px;
+    font-weight: 800;
+    margin: 7px;
+}
+
+.herobody .point_heading .resume_point{
+    height: 20px;
+    width: 19px;
+    background-color: blue;
+    margin-top: 30px;
+    margin-bottom: 25px;
+ 
+}
+
+
+
+.container{
+    height: 45rem;
+    width: 50rem;
+    margin-top: 400px;
+    margin-left: 350px;
+    position: static;
+    background-color: white;
+    display: flex;
+    box-shadow: #c3b1b1 0px 0px 20px 0px;
+    border-radius: 20px;
+}
+
+.container form{
+    width: 100%;
+    margin: 60px;
+}
+
+form .input{
+    display: flex;
+    margin-bottom: 40px;
+ 
+}
+
+.border{
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+}
+.border:hover{
+    border: none;
+    border-bottom: 2px solid rgb(24, 3, 255);
+}
+
+form .input input{
+    width: 140%;
+    
+}
+.input .second-input input label{
+ margin-left: 50%;
+} 
+.input .first-input label{
+    margin-bottom: 10px;
+}
+
+.input .second-input label{
+    margin-bottom: 10px;
+}
+.email label{
+    margin-bottom: 10px;
+}
+.email{
+    margin-bottom: 40px;
+}
+.email input{
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+
+.texta{
+    margin-top: 20px;
+}
+.texta textarea{
+width: 100%;
+}
+
+.container button{
+    margin-top: 20px;
+    border: 2px solid black;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    transition-duration: 0.5s;
+
+}
+
+.container button:hover{
+    color: blue;
+    background-color: white;
+}
+
+
+
+footer{
+    height: 100px;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    /* margin: 183px 0px; */
+    display: flex;
+    padding-top: 20px;
+}
+
+footer .copyright-container{
+    width: 50%;
+    background-color: white;
+}
+
+footer .copyright-container p{
+    margin-left: 20px;
+}
+
+footer .contact{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: end;
+
+}
+
+footer .contact p{
+    margin: 25px;
+}

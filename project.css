@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-color: #E6DACE;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+.right .head4{
+    margin-top: 54px;
+    margin-left: -10px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.right p{
+    margin: 20px;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+.right p,.point:hover{
+    cursor: pointer;
+}
+.point{
+    height: 20px;
+    width: 19px;
+    background-color: blue;
+    margin-top: 30px;
+}
+
+.left ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+.left ul {
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 60px;
+}
+
+.left ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.navbar .left{
+
+    width: 50%;
+}
+
+.navbar{
+    height: 120px;
+    position: fixed;
+    margin-top: -25rem;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1;
+    display: flex;
+
+}
+.left ul li .hover:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.left ul li .hover{
+    color: black;
+}
+
+/* hero body  */
+.container{
+    height: 25rem;
+    width: 50rem;
+    margin-top: 400px;
+    margin-left: 350px;
+    position: static;
+    background-color: white;
+    display: flex;
+    box-shadow: #c3b1b1 0px 0px 20px 0px;
+
+}
+
+.left-container{
+    width: 32rem;
+    font-size: large;
+    background-color: #f5f5dc4a;
+}
+
+.left-container .point-heading p{
+    color: blue;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.left-container .point-heading .point{
+    height: 50px;
+    width: 10px;
+    background-color: blue;
+    margin-right: 40px;
+}
+
+.point-heading{
+    display: flex;
+    margin: 23px 0px;
+    align-items: center;
+}
+
+.left-container .para
+{
+    width: 453px;
+    height: 15rem;
+    display: flex;
+    margin: 30px 30px;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.right-container{
+    width: 18rem;
+}
+
+.herobody .point_heading{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    margin-top: -8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herobody .point_heading p{
+    font-size: 35px;
+    font-weight: 800;
+    margin: 7px;
+}
+
+.herobody .point_heading .resume_point{
+    height: 20px;
+    width: 19px;
+    background-color: blue;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.second-container{
+    margin-top: -15rem;
+}
+
+.right-container img{
+    width: 18rem;
+    height: 100%;
+}
+
+
+
+
+footer{
+    height: 100px;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    /* margin: 183px 0px; */
+    display: flex;
+    padding-top: 20px;
+}
+
+footer .copyright-container{
+    width: 50%;
+    background-color: white;
+}
+
+footer .copyright-container p{
+    margin-left: 20px;
+}
+
+footer .contact{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: end;
+
+}
+
+footer .contact p{
+    margin: 25px;
+}
